@@ -1,0 +1,37 @@
+<html lang = "fr">
+<head>
+  <meta charset = "utf-8">
+  <title>votre question</title>
+</head>
+<body>
+<form>
+  <fieldset>
+    <legend>Ajouter une question</legend>
+    <div>
+      <p class = "div">conseils :</p>
+      <ul>
+        <li>Ne poser pas des questions unitile ou déja poser</li>
+        <li>Veuillez poser une question à la fois</li>
+        <li>votre question, doit etre courte et precise</li>
+      </ul>
+    </div>
+    <p> votre Departement :
+      <select name = "departement">
+        <option value = "Informatique">Informatique</option>
+        <option value = "Chimie">Chimie</option>
+        <option value = "Gestion">Gestion</option>
+      </select>
+    </p>
+    <p>votre question :    <input type="text" name = "question" maxlength="500"
+                                  placeholder="rediger votre question" required></p>
+    <p>Inserer un media(facultatif) : <input type ="file" name ="file"
+                                             placeholder ="joindre un fichier"  ></p>
+    <span>
+                    <input type = "reset" value="Annuler" routerLink="/accueil">
+                    <input type="submit" value ="Ajouter une question" (click)="addAsk()">
+                </span>
+  </fieldset>
+
+</form>
+</body>
+</html>

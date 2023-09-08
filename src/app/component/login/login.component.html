@@ -1,0 +1,38 @@
+<!Doctype html>
+<html>
+<head>
+  <meta charset = "utf-8"/>
+  <meta author = "baba kebé"/>
+  <meta author = "Aicha Muhammed">
+  <meta author = "Mansour">
+</head>
+<body>
+<div>
+
+  <p class = "p"> Un lieu pour partager le savoir,
+    se renseigner et mieux comprendre le fonctionnement de l'ESP</p>
+  <p class = "p2"> En continuant vous reconnaissez avoir accepter<br/><a routerLink = "">
+    les conditions d'utilisations</a>
+    et
+    <a routerLink ="">la politique de confidentialité.
+    </a></p>
+  <form (submit)="login()">
+    <fieldset>
+
+      <p class = "p">Votre Identifiant</p>
+      <input type= "email" placeholder = "votre identifiant"
+             name= "email" >
+      <p class = "p">Mot de passe</p>
+      <input type = "password"
+             placeholder = "votre mot de passe" name = "password" >
+      <p class = "p3" routerLink="forgotten">Mot de passe oublié ? </p><input type = "submit" value = "Se connecter">
+    </fieldset>
+  </form>
+</div>
+<br>
+<hr>
+<ul style="list-style-type: none;">
+  <li> <a routerLink = "inscription"> Creer un compte</a></li>
+</ul>
+</body>
+</html>

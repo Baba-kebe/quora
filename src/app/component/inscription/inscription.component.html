@@ -1,0 +1,42 @@
+<html>
+<head>
+  <meta charset = "utf-8"/>
+  <title>creation de compte</title>
+</head>
+<body>
+<nav>
+  <a routerLink ="" routerLinkActive = "active"
+     [routerLinkActiveOptions]="{exact:true}" >Cliquer ici si vous avez deja un compte</a>
+
+</nav>
+<form>
+  <fieldset>
+    <legend>créer un compte</legend>
+    <p>Votre nom :</p><input type ="text" name = "nom"
+                             placeholder="votre nom" required>
+    <p>Votre prenom :</p><input type ="text" name = "prenom"
+                                placeholder="votre prenom" required>
+
+    <p>Votre Identifiant :</p>
+    <input type= "email" name= "email"
+           placeholder = "votre identifiant ESP Ou adresse mail"
+           required />
+    <p>Mot de passe :</p>
+    <input type = "password" name = "password"
+           placeholder = "votre mot de passe" required/>
+    <!--<p>Confirmer le mot de passe :</p>
+    <input type = "password" name = "code"
+
+    placeholder = "confirmer votre mot de passe" required/> -->
+    <p> votre Departement :
+      <select name = "departement" id = "departement" >
+        <option value = "Informatique" >Informatique</option>
+        <option value = "Chimie">Chimie</option>
+        <option value = "Gestion">Gestion</option>
+      </select>
+    </p>
+    <p> <input type = "submit" value = "s'inscrire" (click)="addUser()"></p>
+  </fieldset>
+</form>
+</body>
+</html>

@@ -1,0 +1,56 @@
+form {
+  width : 60%;
+  height : 95%;
+  margin-left: 20%;
+  margin-top: 20px;
+  background-color: #F2F2F2;
+}
+fieldset {
+  border: none;
+}
+legend {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+div{
+  background-color: rgb(200, 196, 236);
+}
+.div {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-style: italic;
+  font-size: 16px;
+}
+li {
+  margin-left: 0px;
+}
+p {
+  text-transform: capitalize;
+  display: block;
+  margin-top: 5px;
+}
+input[type=text]{
+  width : 80%;
+  height : 20px;
+  float: right;
+}
+select{
+  width : 80%;
+  float: right;
+  height: 20px;
+}
+span{
+  float :right;
+  margin-top: 2px;
+
+}
+input[type=submit]{
+  background-color: #4CAF50;
+  margin-left: 5px;
+  border : 0;
+}
+input[type=reset]{
+  background-color: #F2F2F2;
+  color : black;
+  border:none;
+}

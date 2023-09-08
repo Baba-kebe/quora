@@ -1,0 +1,26 @@
+header{
+  text-align : center;
+  background-color: #EEE;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-style: oblique;
+}
+img{
+  position: relative;
+  width : 30px;
+  height : 30px;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+h1{
+  height: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+ul{
+  padding: 0;
+  list-style: none;
+}
+li{
+  display: inline-block;
+}
